@@ -172,13 +172,13 @@ input {
 	}	
 
 .btn-green {
-	background: #03C9A9;
+	background: black;
 	color: white
 }
 
 /* HEADER SECTION */
 #h {
-	background: url(../img/header.jpg) no-repeat center top;
+	background: url(../img/bg1.jpg) no-repeat center top;
 	padding-top: 180px;
 	text-align:center;
 	background-attachment: relative;
@@ -203,7 +203,12 @@ input {
 	left: 45px;
 	font-size: 18px;
 	font-weight: 900;
-	position:absolute; 
+	position:absolute;
+	color: black;
+	background-color: #ffffff;
+	border: 2px solid white;
+	opacity: 0.6;
+	filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
 #h .social {
@@ -223,8 +228,14 @@ input {
 
 #h h1 {
 	font-weight: 700;
-	color: white;
+	color: black;
 	font-size: 40px;
+}
+.transparent{
+	background-color: #ffffff;
+	border: 2px solid white;
+	opacity: 0.6;
+	filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
 /* Store Links */
@@ -235,7 +246,7 @@ input {
 
 /* SEP */
 #sep {
-	background: url(../img/sep.jpg) no-repeat center top;
+	background: url(../img/bg2.jpg) no-repeat center top;
 	padding-top: 90px;
 	text-align:center;
 	background-attachment: relative;
@@ -363,4 +374,11 @@ ul {
 
 #f a:hover {
 	color: #03C9A9;
+}
+.trans-text {
+	font-weight: bold;
+	color: black;
+}
+.mt2{
+	margin-top: 20px;
 }
